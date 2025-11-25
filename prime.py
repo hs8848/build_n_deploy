@@ -13,7 +13,8 @@ def is_prime(n):
     return True
 
 # Example usage:
-num = 29
+num = int(input("Enter a number: "))
+
 if is_prime(num):
     print(f"{num} is a prime number.")
 else:
